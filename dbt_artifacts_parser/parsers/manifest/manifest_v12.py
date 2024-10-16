@@ -485,7 +485,7 @@ class Config3(BaseParserModel):
 
 class Constraint3(BaseParserModel):
     model_config = ConfigDict(
-        extra='forbid',
+        extra='allow',
     )
     type: Type
     name: Optional[str] = None
